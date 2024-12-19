@@ -1,4 +1,7 @@
-.section-title {
+.section-padding-benefits {
+  padding-bottom: 40px;
+}
+.benefits-title {
   margin-bottom: 24px;
 }
 .benefits-item {
@@ -21,23 +24,33 @@
 
 .benefits-item-purple {
   width: 288px;
-  display: flex;
   position: relative;
   background-color: #f8d2e9;
-  &::before {
+  .benefits-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-left: 26px;
+  }
+  img {
+    // position: absolute;
+
     width: 82px;
     height: 86px;
-    content: '';
-    position: absolute;
-    left: 7px;
-    background: url('../img/benefits/gift.png');
-    background-size: cover;
-    background-position: center;
-    transform: translate(-20px, 0);
   }
+  // &::before {
+  //   width: 82px;
+  //   height: 86px;
+  //   content: '';
+  //   position: absolute;
+  //   left: 7px;
+  //   background: url('../img/benefits/gift.png');
+  //   background-size: cover;
+  //   background-position: center;
+  //   transform: translate(-20px, 0);
+  // }
 }
 .benefits-text {
-  width: 192px;
+  min-width: 192px;
   margin-left: auto;
 }
 
@@ -59,10 +72,19 @@
 .benefits-item-blue {
   position: relative;
   background-color: #c0e7f7;
+  .benefits-wrapper-blue {
+    display: flex;
+    justify-content: center;
+    padding-left: 26px;
+  }
+}
+.benefits-text-blue {
+  min-width: 192px;
+  margin-left: auto;
 }
 .clock-img {
-  left: -17px;
-  position: absolute;
+  width: 92px;
+  height: 92px;
 }
 .benefits-item-violet {
   position: relative;
