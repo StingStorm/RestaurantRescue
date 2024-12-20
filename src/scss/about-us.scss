@@ -1,0 +1,25 @@
+.about-us {
+  background: linear-gradient(134deg, #ffca76 0%, #ffb071 33.22%, #ff7d67 100%);
+}
+.about-us-title {
+  text-align: start;
+  margin-bottom: 16px;
+}
+.about-us-text {
+  width: 288px;
+  margin-bottom: 16px;
+}
+
+@include media(desktop) {
+  .about-us-wrapper {
+    display: flex;
+    gap: 24px;
+  }
+  .about-us {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .about-us-text {
+    width: 482px;
+  }
+}
