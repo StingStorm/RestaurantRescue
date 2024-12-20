@@ -1,20 +1,67 @@
-<header class="section-padding">
-  <nav class="container">
-    <a href="/index.html"><img src="/img/logo.png" alt="logo" /></a>
-    <p class="section-title">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, non.
-    </p>
-    <p class="section-subtitle">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, non.
-    </p>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, non.
-    </p>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, non.
-    </p>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, non.
-    </p>
-  </nav>
+<header class="header">
+  <div class="container header__container">
+    <nav class="nav">
+      <a class="logo" href="/index.html"
+        ><img src="/img/logo.png" alt="logo"
+      /></a>
+
+      <ul class="nav-list">
+        <li class="nav-list__item">
+          <a href="/" class="nav__link">Home</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#features" class="nav__link">Features</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#about-us" class="nav__link">About Us</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#benefits" class="nav__link">Benefits</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#reviews" class="nav__link">Reviews</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#faq" class="nav__link">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button
+      class="burger-btn js-open-menu"
+      type="button"
+      aria-label="Open Menu"
+    >
+      <span class="burger-btn__line top"></span>
+      <span class="burger-btn__line middle"></span>
+      <span class="burger-btn__line bottom"></span>
+    </button>
+  </div>
 </header>
+
+<!-- Mobile Navigation Menu -->
+
+<div class="overlay js-menu-container">
+  <nav class="mobile-menu">
+    <ul class="mobile-menu__list">
+      <li>
+        <a href="#home" class="nav__link">Home</a>
+      </li>
+      <li>
+        <a href="#features" class="nav__link">Features</a>
+      </li>
+      <li>
+        <a href="#about-us" class="nav__link">About Us</a>
+      </li>
+      <li>
+        <a href="#benefits" class="nav__link">Benefits</a>
+      </li>
+      <li>
+        <a href="#reviews" class="nav__link">Reviews</a>
+      </li>
+      <li>
+        <a href="#faq" class="nav__link">FAQ</a>
+      </li>
+    </ul>
+  </nav>
+</div>
