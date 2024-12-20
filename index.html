@@ -15,39 +15,102 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Raleway&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Raleway:wght@100..900&display=swap"
       rel="stylesheet"
     />
     
     <script type="module" crossorigin src="/RestaurantRescue/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/RestaurantRescue/assets/vendor-0807479e.js">
     <link rel="stylesheet" href="/RestaurantRescue/assets/vendor-7c8ef494.css">
-    <link rel="stylesheet" href="/RestaurantRescue/assets/index-7e7c5389.css">
+    <link rel="stylesheet" href="/RestaurantRescue/assets/index-4f22e79a.css">
   </head>
   <body>
-    <header class="section-padding">
-  <nav class="container">
-    <a href="/index.html"><img src="/RestaurantRescue/assets/logo-ebabb0cb.png" alt="logo" /></a>
-    <p class="section-title">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, non.
-    </p>
-    <p class="section-subtitle">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, non.
-    </p>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, non.
-    </p>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, non.
-    </p>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, non.
-    </p>
-  </nav>
+    <header class="header">
+  <div class="container header__container">
+    <nav class="nav">
+      <a class="logo" href="/index.html"
+        ><img src="/RestaurantRescue/assets/logo-ebabb0cb.png" alt="logo"
+      /></a>
+
+      <ul class="nav-list">
+        <li class="nav-list__item">
+          <a href="/" class="nav__link">Home</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#features" class="nav__link">Features</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#about-us" class="nav__link">About Us</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#benefits" class="nav__link">Benefits</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#reviews" class="nav__link">Reviews</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#faq" class="nav__link">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button
+      class="burger-btn js-open-menu"
+      type="button"
+      aria-label="Open Menu"
+    >
+      <span class="burger-btn__line top"></span>
+      <span class="burger-btn__line middle"></span>
+      <span class="burger-btn__line bottom"></span>
+    </button>
+  </div>
 </header>
 
+<!-- Mobile Navigation Menu -->
+
+<div class="overlay js-menu-container">
+  <nav class="mobile-menu">
+    <ul class="mobile-menu__list">
+      <li>
+        <a href="#home" class="nav__link">Home</a>
+      </li>
+      <li>
+        <a href="#features" class="nav__link">Features</a>
+      </li>
+      <li>
+        <a href="#about-us" class="nav__link">About Us</a>
+      </li>
+      <li>
+        <a href="#benefits" class="nav__link">Benefits</a>
+      </li>
+      <li>
+        <a href="#reviews" class="nav__link">Reviews</a>
+      </li>
+      <li>
+        <a href="#faq" class="nav__link">FAQ</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
     <main>
-      
+      <section class="hero-section">
+  <div class="container hero-container">
+    <h1 class="page-title">Restaurant Rescue - Food Games</h1>
+    <p class="hero-text">
+      Cook, Serve, and Save the Day in Your Dream Restaurant!
+    </p>
+    <a
+      class="google-play-link"
+      href="#"
+      target="_blank"
+      title="GooglePlay link"
+      aria-label="Google Play Link"
+      >GooglePlay</a
+    >
+  </div>
+</section>
+
       
       
       <section class="benefits section-padding-benefits" id="benefits">
