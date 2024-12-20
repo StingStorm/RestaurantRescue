@@ -1,0 +1,97 @@
+.section-padding-benefits {
+  padding-bottom: 40px;
+}
+.benefits-title {
+  margin-bottom: 24px;
+}
+.benefits-item {
+  margin-bottom: 16px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  border-radius: 12px;
+  padding: 16px 80px 16px 16px;
+}
+.benefits-item-yellow {
+  position: relative;
+  background-color: #fde78a;
+}
+.cloud-img {
+  left: 170px;
+  top: 20px;
+  position: absolute;
+}
+
+.benefits-item-purple {
+  position: relative;
+  background-color: #f8d2e9;
+  .benefits-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-left: 26px;
+  }
+  img {
+    // position: absolute;
+
+    width: 82px;
+    height: 86px;
+  }
+  // &::before {
+  //   width: 82px;
+  //   height: 86px;
+  //   content: '';
+  //   position: absolute;
+  //   left: 7px;
+  //   background: url('../img/benefits/gift.png');
+  //   background-size: cover;
+  //   background-position: center;
+  //   transform: translate(-20px, 0);
+  // }
+}
+.benefits-text {
+  min-width: 192px;
+  margin-left: auto;
+}
+
+// .gift-img {
+//   left: -12px;
+//   position: absolute;
+//   margin-right: 8px;
+// }
+
+.benefits-item-green {
+  position: relative;
+  background-color: #c0f2c9;
+}
+.cup-img {
+  top: 20px;
+  left: 188px;
+  position: absolute;
+}
+.benefits-item-blue {
+  position: relative;
+  background-color: #c0e7f7;
+  .benefits-wrapper-blue {
+    display: flex;
+    justify-content: center;
+    padding-left: 26px;
+  }
+}
+.benefits-text-blue {
+  min-width: 192px;
+  margin-left: auto;
+}
+.clock-img {
+  width: 92px;
+  height: 92px;
+}
+.benefits-item-violet {
+  position: relative;
+  background-color: #f3cdff;
+}
+.gear-img {
+  transform: rotate(4deg);
+  bottom: -20px;
+  left: 170px;
+  position: absolute;
+}
