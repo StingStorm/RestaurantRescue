@@ -7,6 +7,35 @@
   margin-bottom: 24px;
 }
 
+.review-swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow-x: clip;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  display: block;
+}
+
+.swiper-slide-blue {
+  background-color: #c0e7f7;
+}
+
+.swiper-slide-purple {
+  background-color: #f3cdff;
+}
+.swiper-slide-green {
+  background-color: #c0f2c9;
+}
+
+.swiper-slide-violet {
+  background-color: #f8d2e9;
+}
+
+.swiper-slide-yellow {
+  background-color: #fde78a;
+}
 .swiper-slide {
   position: relative;
   padding: 10px !important;
@@ -34,7 +63,6 @@
 
 .swiper-slide-decorations {
   border-radius: 8px;
-  background-color: #c0f2c9;
   height: 228px;
   padding-left: 16px;
   padding-top: 28px;
