@@ -32,40 +32,21 @@
     padding-left: 26px;
   }
   img {
-    // position: absolute;
-
     width: 82px;
     height: 86px;
   }
-  // &::before {
-  //   width: 82px;
-  //   height: 86px;
-  //   content: '';
-  //   position: absolute;
-  //   left: 7px;
-  //   background: url('../img/benefits/gift.png');
-  //   background-size: cover;
-  //   background-position: center;
-  //   transform: translate(-20px, 0);
-  // }
 }
 .benefits-text {
   min-width: 192px;
   margin-left: auto;
 }
 
-// .gift-img {
-//   left: -12px;
-//   position: absolute;
-//   margin-right: 8px;
-// }
-
 .benefits-item-green {
   position: relative;
   background-color: #c0f2c9;
 }
 .cup-img {
-  top: 20px;
+  top: 30px;
   left: 188px;
   position: absolute;
 }
@@ -91,9 +72,23 @@
   background-color: #f3cdff;
 }
 .gear-img {
-  width: 101px;
+  width: 92px;
+  height: 92px;
   transform: rotate(-20deg);
   bottom: 8px;
   left: 189px;
   position: absolute;
+}
+
+@media (min-width: 375px) {
+  .cloud-img {
+    left: 220px;
+    top: -5px;
+  }
+  .cup-img {
+    left: 235px;
+  }
+  .gear-img {
+    left: 236px;
+  }
 }
