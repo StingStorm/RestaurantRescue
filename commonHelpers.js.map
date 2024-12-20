@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"commonHelpers.js","sources":["../src/js/review.js"],"sourcesContent":["import Swiper from 'swiper';\nimport 'swiper/css';\n\nconst mySwiper = document.querySelector('.review-swiper');\n\nconst swiper = new Swiper(mySwiper, {\n  slidesPerView: 'auto',\n  spaceBetween: 8,\n  centeredSlides: true,\n});\n"],"names":["mySwiper","Swiper"],"mappings":"svBAGA,MAAMA,EAAW,SAAS,cAAc,gBAAgB,EAEzC,IAAIC,EAAOD,EAAU,CAClC,cAAe,OACf,aAAc,EACd,eAAgB,EAClB,CAAC"}
