@@ -1,3 +1,38 @@
-.header {
-  padding: 20px 0;
+.hero-section {
+  background-image: url('../img/hero/hero-bg-mob.png'),
+    linear-gradient(134deg, #ffca76 0%, #ff7d67 100%);
+  background-position: bottom, 0 0;
+  background-repeat: no-repeat;
+}
+
+.hero-container {
+  padding-top: 106px;
+  padding-bottom: 32px;
+  max-width: 288px;
+}
+
+.page-title {
+  font-family: 'Lilita One', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #4b0c26;
+}
+
+.hero-text {
+  margin-bottom: 178px;
+}
+
+.google-play-link {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 14px 0;
+
+  border: 1px solid #f6a00a;
+  border-radius: 8px;
+
+  background-color: #43cc5c;
 }
