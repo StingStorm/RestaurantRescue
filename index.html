@@ -22,7 +22,7 @@
     <script type="module" crossorigin src="/RestaurantRescue/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/RestaurantRescue/assets/vendor-0807479e.js">
     <link rel="stylesheet" href="/RestaurantRescue/assets/vendor-7c8ef494.css">
-    <link rel="stylesheet" href="/RestaurantRescue/assets/index-355236b3.css">
+    <link rel="stylesheet" href="/RestaurantRescue/assets/index-ad6ebe20.css">
   </head>
   <body>
     <header class="header">
@@ -34,7 +34,7 @@
 
       <ul class="nav-list">
         <li class="nav-list__item">
-          <a href="/" class="nav__link">Home</a>
+          <a href="#" class="nav__link">Home</a>
         </li>
         <li class="nav-list__item">
           <a href="#features" class="nav__link">Features</a>
@@ -69,10 +69,10 @@
 <!-- Mobile Navigation Menu -->
 
 <div class="overlay js-menu-container">
-  <nav class="mobile-menu">
+  <nav class="mobile-menu js-mobile-menu">
     <ul class="mobile-menu__list">
       <li>
-        <a href="#home" class="nav__link">Home</a>
+        <a href="#" class="nav__link">Home</a>
       </li>
       <li>
         <a href="#features" class="nav__link">Features</a>
@@ -102,16 +102,110 @@
     </p>
     <a
       class="google-play-link"
-      href="#"
+      href="https://play.google.com/store/apps/details?id=cooking.games.restaurant.rescue.chef"
       target="_blank"
       title="GooglePlay link"
       aria-label="Google Play Link"
-      >GooglePlay</a
     >
+      <img src="/RestaurantRescue/assets/gplay-btn-65f2de16.svg" alt="svg" />
+    </a>
   </div>
 </section>
 
-      
+      <section id="features" class="section-padding features-section">
+  <div class="container">
+    <h2 class="section-title features__title">Features</h2>
+
+    <ul class="features__list">
+      <li class="features__item">
+        <div class="features__item__content">
+          <img
+            class="features__item__img"
+            src="/RestaurantRescue/assets/clock-b0340611.png"
+            srcset="/RestaurantRescue/assets/clock-b0340611.png 1x, /RestaurantRescue/assets/clock@2x-373b4c5c.png 2x"
+            alt=""
+          />
+          <h3 class="section-subtitle features__item__title">
+            Fast-Paced Gameplay:
+          </h3>
+          <p class="features__item__descr">
+            Manage orders, cook dishes, and serve customers in a race against
+            time.
+          </p>
+        </div>
+      </li>
+      <li class="features__item">
+        <div class="features__item__content">
+          <img
+            class="features__item__img"
+            src="/RestaurantRescue/assets/dish-4292f0f4.png"
+            srcset="/RestaurantRescue/assets/dish-4292f0f4.png 1x, /RestaurantRescue/assets/dish@2x-ca463d32.png 2x"
+            alt=""
+          />
+          <h3 class="section-subtitle features__item__title">
+            Diverse Cuisines:
+          </h3>
+          <p class="features__item__descr">
+            Explore recipes from around the world, from classic comfort food to
+            gourmet delights.
+          </p>
+        </div>
+      </li>
+      <li class="features__item">
+        <div class="features__item__content">
+          <img
+            class="features__item__img"
+            src="/RestaurantRescue/assets/lootbox-9b598b3b.png"
+            srcset="/RestaurantRescue/assets/lootbox-9b598b3b.png 1x, /RestaurantRescue/assets/lootbox@2x-0c1920e9.png 2x"
+            alt=""
+          />
+          <h3 class="section-subtitle features__item__title">
+            Challenging Levels:
+          </h3>
+          <p class="features__item__descr">
+            Unlock new levels and face unique challenges to test your culinary
+            skills.
+          </p>
+        </div>
+      </li>
+      <li class="features__item">
+        <div class="features__item__content">
+          <img
+            class="features__item__img"
+            src="/RestaurantRescue/assets/upgrades-f7f0746a.png"
+            srcset="/RestaurantRescue/assets/upgrades-f7f0746a.png 1x, /RestaurantRescue/assets/upgrades@2x-f98141e3.png 2x"
+            alt=""
+          />
+          <h3 class="section-subtitle features__item__title">
+            Restaurant Upgrades:
+          </h3>
+          <p class="features__item__descr">
+            Customize and upgrade your restaurant to attract more customers and
+            increase profits.
+          </p>
+        </div>
+      </li>
+      <li class="features__item">
+        <div class="features__item__content">
+          <img
+            class="features__item__img"
+            src="/RestaurantRescue/assets/family-20665de2.png"
+            srcset="/RestaurantRescue/assets/family-20665de2.png 1x, /RestaurantRescue/assets/family@2x-86d9f27e.png 2x"
+            alt=""
+          />
+          <h3 class="section-subtitle features__item__title">
+            Engaging Storyline:
+          </h3>
+          <p class="features__item__descr">
+            Follow an exciting narrative as you save restaurants from closing
+            and build your culinary empire.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
       <section class="about-us section-padding" id="about-us">
   <div class="container about-us-wrapper">
     <div class="about-us-text-wrapper">
@@ -357,7 +451,13 @@
   </div>
 </section>
 
-      
+      <section class="faq-section section-padding" id="faq">
+  <div class="container">
+    <h2 class="section-title faq-title">FAQ</h2>
+    <ul class="accordion-thumb"></ul>
+  </div>
+</section>
+
     </main>
     <footer class="footer" id="footer">
   <div class="container">
@@ -376,6 +476,12 @@
 </footer>
 
 
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     
   </body>
 </html>
