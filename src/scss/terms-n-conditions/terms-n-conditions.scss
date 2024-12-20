@@ -1,0 +1,36 @@
+.terms-conditions-section {
+  padding-top: 32px;
+}
+.back-home-container {
+  padding: 12px 24px;
+  display: flex;
+  width: 176px;
+  height: 51px;
+}
+.terms-conditions-title {
+  text-align: start;
+  margin-bottom: 24px;
+}
+.terms-conditions-text {
+  text-indent: 5px;
+  margin-bottom: 20px;
+  &:nth-child(13) {
+    margin-bottom: 32px;
+  }
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+  }
+}
+
+.terms-conditions-text-delete-margin {
+  margin-bottom: 0;
+}
+.terms-conditions-list {
+  list-style-type: disc;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  a {
+    text-decoration: underline;
+  }
+}
