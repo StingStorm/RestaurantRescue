@@ -22,7 +22,7 @@
     <script type="module" crossorigin src="/RestaurantRescue/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/RestaurantRescue/assets/vendor-0807479e.js">
     <link rel="stylesheet" href="/RestaurantRescue/assets/vendor-7c8ef494.css">
-    <link rel="stylesheet" href="/RestaurantRescue/assets/index-884822a3.css">
+    <link rel="stylesheet" href="/RestaurantRescue/assets/index-355236b3.css">
   </head>
   <body>
     <header class="header">
@@ -112,8 +112,43 @@
 </section>
 
       
-      
-      <section class="benefits section-padding-benefits" id="benefits">
+      <section class="about-us section-padding" id="about-us">
+  <div class="container about-us-wrapper">
+    <div class="about-us-text-wrapper">
+      <h2 class="section-title about-us-title">About us</h2>
+      <p class="about-us-text">
+        Restaurant Rescue is the ultimate food game that combines fast-paced
+        time management with creative cooking challenges. From flipping burgers
+        to baking cakes, this game lets you showcase your culinary skills while
+        rescuing struggling restaurants. Perfect for foodies and gamers alike,
+        Restaurant Rescue promises hours of addictive fun with stunning visuals
+        and a heartwarming story.
+      </p>
+    </div>
+    <div>
+      <picture>
+        <source
+          media="(min-width:1200px)"
+          srcset="/RestaurantRescue/assets/about-desk-4ba205d9.png 1x, /RestaurantRescue/assets/about-desk@2x-11e6e08a.png 2x"
+        />
+        <source
+          media="(min-width:320)"
+          srcset="
+            /img/about-us/about-mob.png    1x,
+            /img/about-us/about-mob@2x.png 2x
+          "
+        />
+        <img
+          class="about-us-photo"
+          src="/RestaurantRescue/assets/about-mobile-7f5435a6.png"
+          alt="Photo"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <section class="benefits section-padding" id="benefits">
   <div class="container">
     <h2 class="section-title benefits-title">Benefits</h2>
     <div class="benefits-container">
@@ -133,6 +168,7 @@
       <div class="benefits-item benefits-item-purple">
         <div class="benefits-wrapper">
           <img
+            class="gift-img"
             src="/RestaurantRescue/assets/gift-69e1e05d.png"
             alt="Gift"
             srcset="/RestaurantRescue/assets/gift-69e1e05d.png 1x, /RestaurantRescue/assets/gift@2x-df1015ee.png 2x"
@@ -146,9 +182,9 @@
 
       <div class="benefits-item benefits-item-green">
         <img class="cup-img" src="/RestaurantRescue/assets/cup-86939e1a.png" alt="Cup" />
-        <p>
-          Global Leaderboards: Compete with friends and players worldwide
-          <br />to prove your culinary mastery.
+        <p class="benefits-text-green">
+          Global Leaderboards: Compete with friends and players worldwide to
+          prove your culinary mastery.
         </p>
       </div>
 
@@ -177,7 +213,7 @@
   </div>
 </section>
 
-      <section class="reviews-section" id="reviews">
+      <section class="reviews-section section-padding" id="reviews">
   <div class="container">
     <h2 class="section-title reviews-title">Reviews</h2>
     <div class="review-swiper">
@@ -332,8 +368,8 @@
     </div>
 
     <ul class="footer-nav">
-      <li><a href="../terms-n-conditions.html">Terms and Conditions</a></li>
-      <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+      <li><a href="./terms-n-conditions.html">Terms and Conditions</a></li>
+      <li><a href="./privacy-policy.html">Privacy Policy</a></li>
     </ul>
     <p class="footer-text">©2024 ProStarPath.com, All rights reserved.</p>
   </div>
