@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Raleway', serif;
   font-size: 16px;
@@ -8,10 +12,14 @@ body {
   background-color: $_main_bg_color;
 }
 
+section {
+  scroll-margin-top: 54px;
+}
+
 .container {
   width: 100%;
   min-width: 320px;
-  max-width: 375px;
+  max-width: 320px;
   margin: 0 auto;
   padding: 0 16px;
 }
