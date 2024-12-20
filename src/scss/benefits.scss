@@ -17,6 +17,7 @@
   position: relative;
   background-color: #fde78a;
 }
+
 .cloud-img {
   left: 170px;
   top: 20px;
@@ -31,10 +32,10 @@
     justify-content: center;
     padding-left: 26px;
   }
-  img {
-    width: 82px;
-    height: 86px;
-  }
+}
+.gift-img {
+  width: 82px;
+  height: 86px;
 }
 .benefits-text {
   min-width: 192px;
@@ -90,5 +91,71 @@
   }
   .gear-img {
     left: 236px;
+  }
+}
+
+@include media(desktop) {
+  .benefits-item {
+    padding: 16px 80px 16px 24px;
+  }
+  .benefits-item-yellow {
+    width: 439px;
+    position: relative;
+    background-color: #fde78a;
+  }
+  .benefits-item-purple {
+    width: 469px;
+    height: 86px;
+  }
+  .benefits-item-green {
+    width: 551px;
+    height: 86px;
+  }
+  .benefits-text {
+    min-width: 365px;
+    height: 54px;
+  }
+  .benefits-item-blue {
+    width: 482px;
+    height: 86px;
+  }
+  .benefits-text-blue {
+    min-width: 378px;
+    height: 54px;
+  }
+
+  .benefits-item-violet {
+    width: 530px;
+  }
+
+  .benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: center;
+  }
+
+  .cloud-img {
+    left: 357px;
+    top: -24px;
+    transform: rotate(34deg);
+  }
+  .gift-img {
+    width: 100px;
+    height: 104px;
+  }
+  .cup-img {
+    width: 125px;
+    top: -21px;
+    left: 455px;
+  }
+  .gear-img {
+    top: -30px;
+    height: 120px;
+    width: 120px;
+    left: 459px;
+    transform: rotate(11deg);
   }
 }
