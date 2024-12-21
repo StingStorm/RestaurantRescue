@@ -87,6 +87,11 @@
     width: 287px !important;
   }
   .review-swiper {
+    position: static;
+    // top: auto;
+    // right: auto;
+    // bottom: auto;
+    // left: auto;
     width: 930px;
   }
 
@@ -106,6 +111,7 @@
       content: '';
     }
     .swiper-button-next {
+      top: 60%;
       display: block;
       color: #7c1f45;
       transition: all $_main_transition;
@@ -117,6 +123,7 @@
       color: #7c1f45;
     }
     .swiper-button-prev {
+      top: 60%;
       display: block;
       transition: all $_main_transition;
       color: #7c1f45;
@@ -126,5 +133,17 @@
       filter: drop-shadow(0 0 10px rgba(124, 31, 69, 0.6));
       color: #7c1f45;
     }
+    .swiper-button-next:active {
+      color: #4b0c26;
+    }
+    .swiper-button-prev:active {
+      color: #4b0c26;
+    }
+  }
+  .review-container {
+    position: relative;
+  }
+  .review-rate {
+    margin-bottom: 18px;
   }
 }
