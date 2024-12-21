@@ -69,3 +69,15 @@
 .swiper-slide-decorations {
   text-align: start;
 }
+
+@include media(desktop) {
+  .reviews-title {
+    margin-bottom: 48px;
+  }
+  .swiper-slide {
+    width: 287px !important;
+  }
+  .review-swiper {
+    width: 930px;
+  }
+}

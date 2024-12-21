@@ -36,8 +36,7 @@
   height: 86px;
 }
 .benefits-text {
-  // min-width: 192px;
-  width: 192px;
+  min-width: 192px;
   margin-left: auto;
 }
 
@@ -143,8 +142,8 @@
   }
 
   .cloud-img {
-    left: 357px;
-    top: -24px;
+    left: 82%;
+    top: -30px;
     transform: rotate(34deg);
   }
   .gift-img {
@@ -157,13 +156,13 @@
   .cup-img {
     width: 125px;
     top: -21px;
-    left: 455px;
+    left: 83%;
   }
   .gear-img {
     top: -30px;
     height: 120px;
     width: 120px;
-    left: 459px;
+    left: 87%;
     transform: rotate(11deg);
   }
   .clock-img {
@@ -188,5 +187,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+  .benefits-title {
+    margin-bottom: 48px;
+  }
+  .benefits-item {
+    margin-bottom: 0;
   }
 }
