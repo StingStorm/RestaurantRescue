@@ -70,6 +70,15 @@
   text-align: start;
 }
 
+.review-swiper {
+  .swiper-button-next {
+    display: none;
+  }
+  .swiper-button-prev {
+    display: none;
+  }
+}
+
 @include media(desktop) {
   .reviews-title {
     margin-bottom: 48px;
@@ -79,5 +88,43 @@
   }
   .review-swiper {
     width: 930px;
+  }
+
+  .review-swiper {
+    .swiper-button-next {
+      width: 41px;
+      height: 41px;
+    }
+    .swiper-button-prev {
+      width: 41px;
+      height: 41px;
+    }
+    .swiper-button-next:after {
+      content: '';
+    }
+    .swiper-button-prev:after {
+      content: '';
+    }
+    .swiper-button-next {
+      display: block;
+      color: #7c1f45;
+      transition: all $_main_transition;
+    }
+
+    .swiper-button-next:hover,
+    :focus {
+      filter: drop-shadow(0 0 10px rgba(124, 31, 69, 0.6));
+      color: #7c1f45;
+    }
+    .swiper-button-prev {
+      display: block;
+      transition: all $_main_transition;
+      color: #7c1f45;
+    }
+    .swiper-button-prev:hover,
+    :focus {
+      filter: drop-shadow(0 0 10px rgba(124, 31, 69, 0.6));
+      color: #7c1f45;
+    }
   }
 }
