@@ -23,18 +23,21 @@
 .benefits-item-purple {
   position: relative;
   background-color: #f8d2e9;
-  .benefits-wrapper {
-    display: flex;
-    justify-content: center;
-    padding-left: 26px;
-  }
 }
+
+.benefits-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-left: 26px;
+}
+
 .gift-img {
   width: 82px;
   height: 86px;
 }
 .benefits-text {
-  min-width: 192px;
+  // min-width: 192px;
+  width: 192px;
   margin-left: auto;
 }
 
@@ -50,11 +53,11 @@
 .benefits-item-blue {
   position: relative;
   background-color: #c0e7f7;
-  .benefits-wrapper-blue {
-    display: flex;
-    justify-content: center;
-    padding-left: 26px;
-  }
+}
+.benefits-wrapper-blue {
+  display: flex;
+  justify-content: center;
+  padding-left: 26px;
 }
 .benefits-text-blue {
   min-width: 192px;
@@ -95,15 +98,18 @@
     padding: 16px 80px 16px 24px;
   }
   .benefits-item-yellow {
+    align-self: center;
     width: 439px;
     position: relative;
     background-color: #fde78a;
   }
   .benefits-item-purple {
+    align-self: flex-start;
     width: 469px;
     height: 86px;
   }
   .benefits-item-green {
+    align-self: flex-end;
     width: 551px;
     height: 86px;
   }
@@ -112,6 +118,7 @@
     height: 54px;
   }
   .benefits-item-blue {
+    align-self: flex-start;
     width: 482px;
     height: 86px;
   }
@@ -121,6 +128,7 @@
   }
 
   .benefits-item-violet {
+    align-self: flex-end;
     width: 530px;
   }
 
@@ -129,8 +137,9 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
     justify-content: center;
+    width: 754px;
+    gap: 32px;
   }
 
   .cloud-img {
@@ -141,6 +150,9 @@
   .gift-img {
     width: 100px;
     height: 104px;
+    position: absolute;
+    top: -25%;
+    right: 90%;
   }
   .cup-img {
     width: 125px;
@@ -153,5 +165,28 @@
     width: 120px;
     left: 459px;
     transform: rotate(11deg);
+  }
+  .clock-img {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    right: 90%;
+    top: -20%;
+  }
+
+  .benefits-wrapper {
+    justify-content: flex-start;
+  }
+  .benefits-text {
+    width: 365px;
+  }
+  .benefits-wrapper-blue {
+    justify-content: flex-start;
+  }
+  .benefits-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }

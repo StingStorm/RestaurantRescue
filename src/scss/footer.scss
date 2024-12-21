@@ -36,3 +36,13 @@ a:focus {
   color: #4b0c26;
   border-bottom: 1px solid #4b0c26;
 }
+
+.footer-nav li p {
+  text-align: center;
+}
+
+@include media(desktop) {
+  .footer-logo-img {
+    max-width: 110px;
+  }
+}
