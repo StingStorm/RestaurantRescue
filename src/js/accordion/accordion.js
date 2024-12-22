@@ -6,9 +6,6 @@ renderAccordions();
 
 const accordions = document.querySelectorAll('.accordion');
 
-// Instantly open first accordion
-toggleAccoridon(accordions[0]);
-
 accordions.forEach(acc => {
   acc.addEventListener('click', handleExpand);
 });
