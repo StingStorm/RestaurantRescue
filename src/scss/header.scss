@@ -123,6 +123,10 @@
     height: 72px;
   }
 
+  .logo {
+    margin-right: 146px;
+  }
+
   .burger-btn {
     display: none;
   }
@@ -180,9 +184,5 @@
     &__link:active::after {
       background-color: #fde78a;
     }
-  }
-
-  .logo {
-    margin-right: 146px;
   }
 }
