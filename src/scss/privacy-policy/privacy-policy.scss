@@ -94,5 +94,9 @@
     & .section-padding:last-of-type {
       padding-bottom: 60px;
     }
+
+    & .no-wrap {
+      white-space: nowrap;
+    }
   }
 }
